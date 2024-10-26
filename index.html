@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="background.js"></script>
     <script src="books-api.js"></script>
+    <script src="charecter.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
     </div>
     <!-- navbar ends -->
 
-    <!-- Books Starts -->
+    <!-- Books bar Starts -->
     <div class="banner-image">
         <img src="./Assect/Untitled_design__18_-removebg-preview.png" height="150px" alt="Books">
         <div class="banner-image-centered"><p><b>Books</b></p></div>
@@ -42,10 +43,21 @@
     <!-- <div class="book-cover">
         <textarea name="show" id="show"></textarea>
     </div> -->
-    <div id="main">
-    </div>
-
     <!-- Books Ends -->
+
+    <!-- Cahracters bar Starts -->
+    <div class="banner-image">
+        <img src="./Assect/Untitled_design__18_-removebg-preview.png" height="150px" alt="charecters">
+        <div class="banner-image-centered"><p><b>Charecters</b></p></div>
+    </div>
+    <!-- Carecters ends -->
+
+    <!-- Cahrecter Card -->
+    <div class="button-container">
+        <button style="width: 500px;" onclick="fetchcharecter()"><p class="button-container-p-class"><b>Show Charecters</b></p></button>
+        <div id="charecter-container" class="charecter-container"></div>
+    </div>
+    <!-- Cahrecter cards ends -->
 
     <audio autoplay loop>
         <source src="./Assect/harry_potter_1.mp3" type="audio/mp3">
