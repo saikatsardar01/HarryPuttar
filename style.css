@@ -139,7 +139,10 @@ body {
 }
 .charecter-card img {
   height: 250px;
-  text-align: center;
+  /* text-align: center; */
+  display: block;
+  margin-left: auto;
+  float: center;
   width: auto;
   border-radius: 50px;
 }

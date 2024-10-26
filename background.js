@@ -15,6 +15,6 @@ const changeBackground = () => {
 };
 
 // Change background image every 10 seconds (10000 milliseconds)
-setInterval(changeBackground, 10000);
+setInterval(changeBackground, 15000);
 // Initial call to set the first background image
 changeBackground();
