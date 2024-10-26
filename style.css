@@ -2,6 +2,10 @@
     font-family: myFirstFont;
     src: url(HarryP-MVZ6w.ttf);
 }
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .container{
     width: 100%;
     overflow: hidden;
