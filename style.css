@@ -1,0 +1,49 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(HarryP-MVZ6w.ttf);
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container li{
+    list-style: none;
+    display: inline;
+  }
+  .container li a{
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all .3s ease-in;
+    font-family: "Play", sans-serif;
+  }
+  .container li a:hover{
+    background-color: #DDFFD9;
+    background-color: #F0C5AD;
+    color: black;
+  }
+
+/* Banner */
+.banner-image {
+    text-align: center;
+    position: relative;
+}
+.banner-image-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-image-centered p {
+    font-size: 80px;
+    font-family: myFirstFont;
+}
