@@ -7,6 +7,7 @@
     <title>Harry Puttar</title>
     <link rel="stylesheet" href="style.css">
     <script src="background.js"></script>
+    <script src="books-api.js"></script>
 </head>
 
 <body>
@@ -27,6 +28,21 @@
     <div class="banner-image">
         <img src="./Assect/Untitled_design__18_-removebg-preview.png" height="150px" alt="Books">
         <div class="banner-image-centered"><p><b>Books</b></p></div>
+    </div>
+
+    <!-- Books Starts -->
+
+
+    <div class="button-container">
+        <button onclick="fetchBooks()"><p class="button-container-p-class"><b>Show Books</b></p></button>
+        <div id="books-container" class="books-container"></div>
+    </div>
+    
+
+    <!-- <div class="book-cover">
+        <textarea name="show" id="show"></textarea>
+    </div> -->
+    <div id="main">
     </div>
 
     <!-- Books Ends -->
